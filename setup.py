@@ -11,8 +11,8 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 here = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)), ".."
-)  # NOTE 这里因为我的基本路径是`setup.py`文件的上一层，因此额外往上走了一级
+    os.path.dirname(os.path.abspath(__file__))
+)
 
 # 包的基本信息.
 NAME = "JDistributer"
